@@ -1,0 +1,9 @@
+Qi9242 KEYWORD1
+state KEYWORD2
+status KEYWORD2
+coil_current KEYWORD2
+coil_voltage KEYWORD2
+sensing_voltage KEYWORD2
+frequency KEYWORD2
+operating_duty KEYWORD2
+bridge_status KEYWORD2
