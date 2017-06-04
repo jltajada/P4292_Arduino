@@ -2,7 +2,6 @@
    Librería para acceder por I2C (400KHz) a los registros del módulo Qi P9242-R de IDT Inc.
    Creado por Jose Luis Tajada, Junio 2017
    joseluistajada@gmail.com
-   jltajada@chargy.com
  */
 
 

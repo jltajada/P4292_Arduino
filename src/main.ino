@@ -2,7 +2,7 @@
    Librería para acceder por I2C (400KHz) a los registros del módulo Qi P9242-R de IDT Inc.
    Creado por Jose Luis Tajada, Junio 2017
    joseluistajada@gmail.com
-   jltajada@chargy.com
+
  */
 
 
@@ -29,6 +29,7 @@ void loop() {//___________________________________________________________ L O O
         delay(1000);
         Serial.println("Run Time:"+String(millis())+"ms");
 
+        //Only function request in Serial Print
         Serial.println("Estate:"+String(Qi9242.state()));
         Serial.println("Estatus:"+String(Qi9242.status()));
         Serial.println("Coil Current:"+String(Qi9242.coil_current())+"mA");
